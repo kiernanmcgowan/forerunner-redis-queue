@@ -1,0 +1,11 @@
+{
+  "name": "harbinger-redis",
+  "version": "0.0.1",
+  "description": "Redis queue and store for harbinger",
+  "dependencies": {
+    "node-uuid": "1.4.x",
+    "redis": "0.8.4",
+    "hiredis": "0.1.15",
+    "underscore": "1.5.1"
+  }
+}
