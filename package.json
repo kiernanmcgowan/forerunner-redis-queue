@@ -1,7 +1,7 @@
 {
-  "name": "harbinger-redis",
+  "name": "harbinger-redis-queue",
   "version": "0.0.1",
-  "description": "Redis queue and store for harbinger",
+  "description": "Redis queue for harbinger",
   "dependencies": {
     "node-uuid": "1.4.x",
     "redis": "0.8.4",
