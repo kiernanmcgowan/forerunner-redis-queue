@@ -44,7 +44,7 @@ var harbingerOpts = {
 ```
 
 
-LICENCE
+LICENSE
 ---
 
 <MIT>
