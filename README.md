@@ -1,22 +1,22 @@
-harbinger-redis-queue
+forerunner-redis-queue
 ===
 
-Simple redis queue plugin for [harbinger](https://github.com/dropdownmenu/harbinger).
+Simple redis queue plugin for [forerunner](https://github.com/dropdownmenu/forerunner).
 
 ```
-npm install harbinger-redis-queue
+npm install forerunner-redis-queue
 ```
 
 usage
 ---
 
 ```
-var redisQueue = require('harbinger-redis-queue');
-var harbingerOpts = {
+var redisQueue = require('forerunner-redis-queue');
+var forerunnerOpts = {
   queue: new redisQueue()
 };
 
-harbinger.start(harbingerOpts, function() {
+forerunner.start(forerunnerOpts, function() {
 
 });
 
@@ -26,19 +26,19 @@ configuring
 ---
 
 ```
-var redisQueue = require('harbinger-redis-queue');
+var redisQueue = require('forerunner-redis-queue');
 
 var redisOpts = {
   // redis config
   port: 'the redis port number',
   host: 'your redis host',
   redis: {}, // additional redis config, see node_redis for more details
-  // harbinger config
-  queueHashName: 'harbinger_job_queue', // key used to store jobs
-  jobFailedHashName: 'harbinger_job_fail_count' // key used to store job failed status
+  // forerunner config
+  queueHashName: 'forerunner_job_queue', // key used to store jobs
+  jobFailedHashName: 'forerunner_job_fail_count' // key used to store job failed status
 };
 
-var harbingerOpts = {
+var forerunnerOpts = {
   queue: new redisQueue(redisOpts)
 };
 ```

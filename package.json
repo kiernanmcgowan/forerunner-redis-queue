@@ -1,7 +1,7 @@
 {
-  "name": "harbinger-redis-queue",
+  "name": "forerunner-redis-queue",
   "version": "0.0.2",
-  "description": "Redis queue for harbinger",
+  "description": "Redis queue for forerunner",
   "dependencies": {
     "node-uuid": "1.4.x",
     "redis": "0.8.4",
