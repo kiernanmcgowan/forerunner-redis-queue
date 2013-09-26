@@ -1,6 +1,6 @@
 {
   "name": "forerunner-redis-queue",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Redis queue for forerunner",
   "dependencies": {
     "redis": "0.8.4",
