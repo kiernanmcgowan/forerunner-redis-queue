@@ -1,7 +1,17 @@
 {
   "name": "forerunner-redis-queue",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Redis queue for forerunner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dropdownmenu/forerunner-redis-queue.git"
+  },
+  "keywords": [
+    "forerunner",
+    "queue",
+    "redis"
+  ],
   "dependencies": {
     "redis": "0.8.4",
     "hiredis": "0.1.15",
