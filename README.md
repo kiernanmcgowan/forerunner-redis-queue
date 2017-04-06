@@ -1,6 +1,8 @@
 forerunner-redis-queue
 ===
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kiernanmcgowan/forerunner-redis-queue.svg)](https://greenkeeper.io/)
+
 Simple redis queue plugin for [forerunner](https://github.com/dropdownmenu/forerunner).
 
 ```
